@@ -1,0 +1,62 @@
+:root {
+  margin: 0;
+  padding: 0;
+
+  font-size: 62.5%;
+}
+.hide {
+  display: none;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+  /* font-family: "Dancing Script", cursive;
+   */
+  color: #34355b;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  display: grid;
+
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 428px;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  /* justify-content: center;
+  align-items: center; */
+  /* display: grid;
+  place-items: center; */
+}
+
+.screen1 h1 {
+  padding-top: 8.4rem 4.8rem 1.4rem 8.4rem;
+  margin: 0 8.4rem 0 8.4rem;
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.screen1 p {
+  color: #464777;
+
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.cookie {
+  max-width: 100%;
+  margin: 0 8.4rem 0 8.4rem;
+  animation-name: treme;
+}
+
+@keyframes treme {
+  100% {
+    transform: translateX(calc(100vw - 100% - 1.6rem));
+  }
+}
