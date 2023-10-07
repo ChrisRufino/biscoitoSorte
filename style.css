@@ -70,7 +70,7 @@ main {
   font-size: 2.4rem;
   text-align: center;
 
-  animation: appear 0.4s 0.3s backwards;
+  animation: appear 0.4s 0.2s backwards;
 }
 
 .footer {
